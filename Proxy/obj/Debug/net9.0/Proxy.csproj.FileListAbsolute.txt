@@ -1,0 +1,12 @@
+C:\Users\chris\RiderProjects\MetaLama-Test\Proxy\obj\Debug\net9.0\Proxy.csproj.AssemblyReference.cache
+C:\Users\chris\RiderProjects\MetaLama-Test\Proxy\obj\Debug\net9.0\Proxy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chris\RiderProjects\MetaLama-Test\Proxy\obj\Debug\net9.0\Proxy.AssemblyInfoInputs.cache
+C:\Users\chris\RiderProjects\MetaLama-Test\Proxy\obj\Debug\net9.0\Proxy.AssemblyInfo.cs
+C:\Users\chris\RiderProjects\MetaLama-Test\Proxy\obj\Debug\net9.0\Proxy.csproj.CoreCompileInputs.cache
+C:\Users\chris\RiderProjects\MetaLama-Test\Proxy\bin\Debug\net9.0\Proxy.deps.json
+C:\Users\chris\RiderProjects\MetaLama-Test\Proxy\bin\Debug\net9.0\Proxy.dll
+C:\Users\chris\RiderProjects\MetaLama-Test\Proxy\bin\Debug\net9.0\Proxy.pdb
+C:\Users\chris\RiderProjects\MetaLama-Test\Proxy\obj\Debug\net9.0\Proxy.dll
+C:\Users\chris\RiderProjects\MetaLama-Test\Proxy\obj\Debug\net9.0\refint\Proxy.dll
+C:\Users\chris\RiderProjects\MetaLama-Test\Proxy\obj\Debug\net9.0\Proxy.pdb
+C:\Users\chris\RiderProjects\MetaLama-Test\Proxy\obj\Debug\net9.0\ref\Proxy.dll

@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net9.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <LangVersion>latestmajor</LangVersion>
+        <MetalamaFormatOutput>true</MetalamaFormatOutput>
+        <MetalamaEmitCompilerTransformedFiles>true</MetalamaEmitCompilerTransformedFiles>
+    </PropertyGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\Proxy\Proxy.csproj" />
+    </ItemGroup>
+       
+
+</Project>

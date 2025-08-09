@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetaLama-Test", "MetaLama-Test\MetaLama-Test.csproj", "{71896C46-380C-4BAF-88DF-7C15E48F4552}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Proxy\Proxy.csproj", "{4EEFE22C-B002-42DB-80FC-50F1969EF5CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71896C46-380C-4BAF-88DF-7C15E48F4552}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71896C46-380C-4BAF-88DF-7C15E48F4552}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71896C46-380C-4BAF-88DF-7C15E48F4552}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71896C46-380C-4BAF-88DF-7C15E48F4552}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EEFE22C-B002-42DB-80FC-50F1969EF5CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EEFE22C-B002-42DB-80FC-50F1969EF5CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EEFE22C-B002-42DB-80FC-50F1969EF5CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EEFE22C-B002-42DB-80FC-50F1969EF5CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,3 @@
+﻿namespace MetaLama_Test.Proxies{
+public classMyServiceProxy:global::MetaLama_Test.IMyService{public global::Proxy.IRpcTransport_transport=default!;public MyServiceProxy(global::MetaLama_Test.RpcTransporttransport){this._transport=transport;}public global::System.Int32Add(global::System.Int32a,global::System.Int32b){vartransport=(global::Proxy.IRpcTransport)this._transport;return (global::System.Int32)transport.Invoke("Add",newobject[]{a,b});}public global::System.StringEcho(global::System.Stringtext){vartransport=(global::Proxy.IRpcTransport)this._transport;return (global::System.String)transport.Invoke("Echo",newobject[]{text});}}
+}

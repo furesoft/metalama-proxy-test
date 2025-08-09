@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/Proxy/RpcProxyFactory.cs">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/Proxy/RpcProxyFactory.cs" />
+              <option name="updatedContent" value="using System;&#10;&#10;namespace Proxy&#10;{&#10;    public static class RpcProxyFactory&#10;    {&#10;        public static T Create&lt;T&gt;(IMyHandler handler) where T : class&#10;        {&#10;            // Dummy-Implementierung: gibt einen Proxy zurück, der alle Methodenaufrufe an handler.Invoke weiterleitet&#10;            return DispatchProxy.Create&lt;T, RpcProxy&lt;T&gt;&gt;(handler);&#10;        }&#10;    }&#10;&#10;    public interface IMyHandler&#10;    {&#10;        object? Invoke(string methodName, object?[] args);&#10;    }&#10;&#10;    public class RpcProxy&lt;T&gt; : DispatchProxy&#10;    {&#10;        private IMyHandler? _handler;&#10;&#10;        protected override object? Invoke(System.Reflection.MethodInfo? targetMethod, object?[]? args)&#10;        {&#10;            if (_handler == null || targetMethod == null)&#10;                throw new InvalidOperationException();&#10;            return _handler.Invoke(targetMethod.Name, args ?? Array.Empty&lt;object?&gt;());&#10;        }&#10;&#10;        public void SetHandler(IMyHandler handler)&#10;        {&#10;            _handler = handler;&#10;        }&#10;    }&#10;&#10;    public static class DispatchProxy&#10;    {&#10;        public static T Create&lt;T, TProxy&gt;(IMyHandler handler) where T : class where TProxy : DispatchProxy, new()&#10;        {&#10;            var proxy = new TProxy();&#10;            ((RpcProxy&lt;T&gt;)(object)proxy).SetHandler(handler);&#10;            return proxy as T ?? throw new InvalidOperationException();&#10;        }&#10;    }&#10;}&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "KMs+GB4B7JU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\chris\\RiderProjects\\MetaLama-Test\\MetaLama-Test\\MetaLama-Test.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\chris\\.nuget\\packages\\metalama.compiler\\2025.1.6\\metalama.compiler.2025.1.6.nupkg.sha512",
+    "C:\\Users\\chris\\.nuget\\packages\\metalama.framework\\2025.1.12\\metalama.framework.2025.1.12.nupkg.sha512",
+    "C:\\Users\\chris\\.nuget\\packages\\metalama.framework.redist\\2025.1.12\\metalama.framework.redist.2025.1.12.nupkg.sha512",
+    "C:\\Users\\chris\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\chris\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
+    "C:\\Users\\chris\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
