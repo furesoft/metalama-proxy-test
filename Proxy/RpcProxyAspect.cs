@@ -16,7 +16,7 @@ public class RpcProxyAspect : TypeAspect
     }
 
     [Template]
-    private IRpcTransport transportTemplate = default!;
+    private IRpcTransport transportTemplate = null!;
 
     public override void BuildAspect( IAspectBuilder<INamedType> builder )
     {
@@ -34,8 +34,8 @@ public class RpcProxyAspect : TypeAspect
 
         proxy.IntroduceField(nameof(transportTemplate), IntroductionScope.Instance, OverrideStrategy.Default, field =>
         {
-            field.Name = "_transport";
             field.Accessibility = Accessibility.Public;
+            field.Name = "_transport";
         });
 
         proxy.IntroduceConstructor(nameof(CtorTemplate), OverrideStrategy.Default, constructor =>
@@ -56,8 +56,7 @@ public class RpcProxyAspect : TypeAspect
                 {
                     m.AddParameter(methodParameter.Name, methodParameter.Type);
                 }
-                m.Name = $"{method.Name}";
-
+                m.Name = method.Name;
             });
 
         }
