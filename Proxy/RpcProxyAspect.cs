@@ -68,7 +68,7 @@ public class RpcProxyAspect : TypeAspect
     public dynamic MethodTemplate()
     {
         var transport = (IRpcTransport)meta.This._transport!;
-        return transport.Invoke(meta.Target.Method.Name, meta.Target.Parameters.ToValueArray());
+        return transport.Invoke(meta.Target.Method.Name, meta.Target.Parameters.ToValueArray(), meta.Target.Method.ReturnType.ToType());
     }
 
     [Template(Accessibility = Accessibility.Public)]

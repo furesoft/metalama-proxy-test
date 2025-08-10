@@ -2,5 +2,5 @@
 
 public interface IRpcTransport
 {
-    object? Invoke(string methodName, object?[] args);
+    object? Invoke(string methodName, object?[] args, Type returnType);
 }
